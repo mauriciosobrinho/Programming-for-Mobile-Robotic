@@ -1,0 +1,38 @@
+cd ~/Documentos/prm_1/mapa/proj1$ ls
+map.inc  pioneer.inc  proj1.cfg  proj1-map.png  proj1-map.world  sick.inc
+
+cd ~/Documentos/prm_1/mapa/proj1$ player proj1.cfg
+
+--------------------------------------------------------
+
+cd ~/Documentos/prm_1/src$ ls
+aprox          grab_green2.c  Makefile       robot.c        trab1.c
+aprox.c        grip           Makefile~      robot.h        trab1verm
+blob           gripper.c      pos            run.sh         trab1_verm.c
+blobfinder.c   gripper.c~     position2d.c   segueparede.c
+blobfinder.c~  kill           position2d.c~  sonar
+campos_pot.c   laser          pot            sonar.c
+grab_green     laser.c        README.md      trab1
+
+cd ~/Documentos/prm_1/src$ make -B
+
+cd ~/Documentos/prm_1/src$ sh run.sh
+
+---------------------------------------------------
+
+ctrl + C primeiro no terminal que estiver rodando o mapa e depois no terminal que estiver rodando os robos
+
+---------------------------------------------------
+
+Alteração para acessar máquina remota:
+
+ifconfig na máquina hospedeira
+pegar o endereço MAC dela
+configurações da máquina virtual
+rede - modo Bridge - alterar MAC e colocar o da máquina hospedeira - com isso a máquina virtual enxergará a máquina remota
+
+localhost : máquina local
+192.168.181.51: máquina remota do professor
+
+
+

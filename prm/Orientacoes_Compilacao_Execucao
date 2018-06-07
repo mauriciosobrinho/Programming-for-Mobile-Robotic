@@ -1,0 +1,15 @@
+#Orientações para compilação via Makefile
+
+#Executando o mapa
+cd ~/PATH/prm_1/mapa/proj1$ player proj1.cfg
+
+#Executando o make
+cd ~/PATH/prm_1/src$ make -B
+
+#Rodando script de execução
+cd ~/PATH/prm_1/src$ sh run.sh
+
+
+
+
+
